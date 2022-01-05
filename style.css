@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.parent-of-section1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-chile-of-section1{
+    width:700px;
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 100px;
+    padding-right: 10px;
+  
+}
+.right-chile-of-section1{
+    width:550px;
+    height: 450px;
+}
+.right-chile-of-section1 img{
+   
+    width: 70%;
+}
+#title-of-section1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    border-left: 4px solid tomato;
+    padding-left: 10px;
+}
+.title-color{
+    color:orange;
+}
+.button-of-sections{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(tomato,red);
+    padding: 10px 26px;
+    border-radius: 8px;
+}
+#title-of-section2{
+    text-align: center;
+    font-size: 52px;
+}
+.parent-of-section2{
+    display: flex;
+    justify-content: center;
+}
+.parent-of-section2 h1{
+    text-align: center;
+}
+.parent-of-section2 img{
+    margin-left: 100px;
+}
+.parent-of-section2 p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chile-of-section2{
+    width:440px;
+    height:450px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.chile-of-section2 img{
+    width: 50%;
+}
+.left-chile-of-section2{
+ background-color: rgba(54, 221, 221, 0.11);
+}
+.middle-chile-of-section2{
+    background-color: rgba(228, 53, 22, 0.116);
+}
+.right-chile-of-section2{
+    background-color: rgba(219, 147, 13, 0.123);
+
+}
+.left-child-of-parent3{
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+}
+.left-child-of-parent3 img{
+    width: 100%;
+}
+.parent-of-section3{
+   display: flex;
+   margin-top: 40px;
+   margin-bottom: 50px;
+   background-image: url(images/shape-1.png);
+   background-repeat: no-repeat;
+   background-position:right;
+}
+.right-child-of-parent3{
+    width: 800px;
+    height: 400px;
+    margin-left: 100px;
+}
+.right-child-of-parent3 h1{
+    font-size: 50px;
+}
