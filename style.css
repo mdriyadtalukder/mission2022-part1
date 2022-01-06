@@ -2,10 +2,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.parent-of-section1{
-    display: flex;
-    justify-content: space-evenly;
-}
 .left-chile-of-section1{
     width:700px;
     height: 450px;
@@ -21,6 +17,10 @@ body{
 .right-chile-of-section1 img{
    
     width: 70%;
+}
+.parent-of-section1{
+    display: flex;
+    justify-content: space-evenly;
 }
 #title-of-section1{
     font-family: 'Yeseva One', cursive;
@@ -38,9 +38,17 @@ body{
     padding: 10px 26px;
     border-radius: 8px;
 }
-#title-of-section2{
-    text-align: center;
-    font-size: 52px;
+.chile-of-section2{
+    width:440px;
+    height:450px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.chile-of-section2 img{
+    width: 50%;
 }
 .parent-of-section2{
     display: flex;
@@ -57,18 +65,9 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
-
-.chile-of-section2{
-    width:440px;
-    height:450px;
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 15px;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-bottom: 30px;
-}
-.chile-of-section2 img{
-    width: 50%;
+#title-of-section2{
+    text-align: center;
+    font-size: 52px;
 }
 .left-chile-of-section2{
  background-color: rgba(54, 221, 221, 0.11);
@@ -88,6 +87,11 @@ body{
 .left-child-of-section3-and-right-child-of-section4 img{
     width: 100%;
 }
+.right-child-of-section3{
+    width: 800px;
+    height: 400px;
+    margin-left: 100px;
+}
 .parent-of-section3-and-section4{
    display: flex;
    margin-top: 50px;
@@ -98,21 +102,13 @@ body{
     background-repeat: no-repeat;
     background-position:right;
 }
-.right-child-of-section3{
-    width: 800px;
-    height: 400px;
-    margin-left: 100px;
-}
 .title-of-section3-section4-and-section5{
     font-size: 50px;
 }
-.left-child-of-section4{
+.left-child-of-section4-and-right-child-of-parent2-of-section5{
     width: 850px;
     height: 450px;
     margin-left: 70px;
-}
-.section5{
-background-color: rgba(0, 139, 139, 0.151);
 }
 .parent1-of-section5{
     justify-content: center;
@@ -126,19 +122,18 @@ background-color: rgba(0, 139, 139, 0.151);
     margin-left: 300px;
     font-size: 18px;
 }
-.parent2-of-section5{
-    display: flex;
-    justify-content: start;
-}
 .parent2-of-section5 img{
     width: 90%;
     height: 90%;
     border-radius: 100%;
 }
-.last-section{
-    background-color: black;
-    border: 15px solid black;
+.parent2-of-section5{
+    display: flex;
+    justify-content: start;
 }
+.section5{
+    background-color: rgba(0, 139, 139, 0.151);
+    }
 .last-mission{
     font-family: 'Lobster', cursive;
     font-size: 40px;
@@ -150,4 +145,8 @@ background-color: rgba(0, 139, 139, 0.151);
     text-align: center;
     color:white;
     margin-bottom: 40px;
+}
+.last-section{
+    background-color: black;
+    border: 15px solid black;
 }
